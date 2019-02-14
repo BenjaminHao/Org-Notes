@@ -1,0 +1,34 @@
+* Functions
+
+** Pointers to Functions
+   A function's type is determined by its return type and the types of tis parameters.
+   For example:
+
+   #+BEGIN_SRC C++
+     bool lengthCompare(const string &, const string &);
+   #+END_SRC
+   has type bool(const string &, const string &). To declare a pointer, replace function name with pointer
+
+   #+BEGIN_SRC C++
+     bool (*pf)(const string &, const string &); // uninitialized
+   #+END_SRC
+   Note: the parentheses around *pf is necessary. If we omit them, then pf is a function that returns a pointer to bool.
+
+*** Using Function pointer
+    When we use the name of a function as a *value*, the function is *automatically comverted to a pointer*.
+
+    #+BEGIN_SRC C++
+      pf = lengthCompare; // pf now points to the function named lengthCompare
+      pf = &lengthCompare; // equivalent assignment: address-of operator is optional
+    #+END_SRC
+
+    #+BEGIN_SRC C++
+      bool b1 = pf("hello", "goodbye"); // calls lengthCompare
+      bool b2 = (*pf)("hello", "goodbye"); // equivalent call
+      bool b3 = lengthCompare("hello", "goodbye"); // equivalent call
+    #+END_SRC
+
+
+   
+   
+
