@@ -1,0 +1,10 @@
+* Workspace
+
+** TODO [#B] Review: Type conversions
+
+  [2019-02-13 Wed 14:47]
+
+** TODO [#B] Review: What are arithmetic conversion, pointer conversion, class-type conversion and promition?
+  
+  [2019-02-13 Wed 16:24]
+

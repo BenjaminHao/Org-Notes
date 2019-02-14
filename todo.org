@@ -1,0 +1,22 @@
+* Tasks
+** DONE Review: high-level & low-level const
+   CLOSED: [2019-02-12 Tue 20:18]
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2019-02-12 Tue 20:18]
+   :END:
+** TODO Learn: Bitwise Operators, Type Conversions
+** DONE Review: auto & decltype
+   CLOSED: [2019-02-13 Wed 10:54]
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2019-02-13 Wed 10:54]
+   :END:
+** TODO Review: variable difinitions inside the Body of a switch
+** DONE Review: decltype
+   CLOSED: [2019-02-13 Wed 10:55]
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2019-02-13 Wed 10:55]
+   - State "TODO"       from "WAITING"    [2019-02-13 Wed 10:54]
+   - State "TODO"       from "DONE"       [2019-02-12 Tue 20:18]
+   - State "DONE"       from "TODO"       [2019-02-12 Tue 20:18]
+   :END:
+** TODO Review: Explicit Conversions: static_cast, const_cast, etc.

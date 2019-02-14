@@ -1,0 +1,10 @@
+#+TITLE: notes
+* Quick notes
+  
+** decltype
+   #+BEGIN_SRC c++
+   int i = 0, j = 1;
+   decltype((i)) a = j; // (i) is lvalue, a is int&
+   #+END_SRC
+  [2019-02-12 Tue 20:20]
+
